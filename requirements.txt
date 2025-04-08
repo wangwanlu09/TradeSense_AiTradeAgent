@@ -1,0 +1,4 @@
+fastapi
+redis
+types-redis
+uvicorn
