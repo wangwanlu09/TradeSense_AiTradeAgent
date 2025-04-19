@@ -2,7 +2,7 @@ import requests
 import yfinance as yf
 
 def analyze_market_trend():
-    # 获取主要股指的涨跌幅
+  
     stock_indices = ["^GSPC", "^IXIC", "^DJI"]
     stock_changes = []
 
@@ -13,7 +13,7 @@ def analyze_market_trend():
 
     stock_avg_trend = round(sum(stock_changes) / len(stock_changes), 2)
 
-    # 使用 CoinGecko API 获取加密货币的 24 小时价格变化百分比
+
     crypto_ids = "bitcoin,ethereum,binancecoin,xrp,solana,dogecoin,toncoin"
     response = requests.get("https://api.coingecko.com/api/v3/coins/markets", params={
         "vs_currency": "usd",
