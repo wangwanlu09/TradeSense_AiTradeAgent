@@ -26,5 +26,4 @@ app.include_router(market.router)
 <<<<<<< HEAD
 app.include_router(technical.router)
 app.include_router(recommend.router)
-=======
->>>>>>> 5f1c279ea36c65ef3a2f76ab32043d635c266238
+
