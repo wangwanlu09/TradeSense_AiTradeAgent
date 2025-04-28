@@ -11,7 +11,7 @@ def get_news():
     url = f"https://newsapi.org/v2/top-headlines?category=business&apiKey={NEWS_API_KEY}"
     return fetch_and_analyze_news_by_url(url)
 
-@router.get("/crypto_news",tags=["Crypto News"])
+@router.get("/news/crypto",tags=["Crypto News"])
 def get_crypt_news():
     url = f"https://newsapi.org/v2/everything?q=crypto&language=en&sortBy=publishedAt&apiKey={NEWS_API_KEY}"
     return fetch_and_analyze_news_by_url(url)

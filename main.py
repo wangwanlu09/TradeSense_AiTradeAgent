@@ -1,14 +1,25 @@
 from fastapi import FastAPI
-from routes import news, strategy, market
+from fastapi.middleware.cors import CORSMiddleware
+from routes import news, market, technical, strategy, recommend
 
 app = FastAPI()
 
-# 根路由
+# Configure CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"], 
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 @app.get("/")
 def root():
     return {"message": "Welcome to the AI Trade Agent API"}
 
-# 引入并注册新闻路由
+
 app.include_router(news.router)
 app.include_router(strategy.router)
 app.include_router(market.router)
+app.include_router(technical.router)
+app.include_router(recommend.router)

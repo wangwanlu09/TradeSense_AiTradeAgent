@@ -1,26 +1,47 @@
 from fastapi import APIRouter
-from pydantic import BaseModel
+from services.strategy_analyzer import analyze_stock_strategy, analyze_crypto_strategy, get_recommended_stocks, get_recommended_cryptos
 
 router = APIRouter()
 
-class StrategyInput(BaseModel):
-    symbol: str
-    sentiment: str  # "positive", "negative", "neutral"
-    rsi: float
+@router.get("/strategy/stock/{symbol}", tags=["Stock Strategy"])
+def get_stock_strategy(symbol: str):
+    """
+    Get trading strategy recommendation for a stock symbol.
+    This includes both news sentiment analysis and technical indicators.
+    """
+    return analyze_stock_strategy(symbol)
 
-def generate_strategy(sentiment: str, rsi: float) -> str:
-    if sentiment == "positive" and rsi < 30:
-        return "Buy"
-    elif sentiment == "negative" and rsi > 70:
-        return "Sell"
+@router.get("/strategy/crypto/{symbol}", tags=["Crypto Strategy"])
+def get_crypto_strategy(symbol: str):
+    """
+    Get trading strategy recommendation for a crypto symbol.
+    This includes both news sentiment analysis and technical indicators.
+    """
+    return analyze_crypto_strategy(symbol)
+
+@router.get("/strategy", tags=["Strategy"])
+def get_strategy(symbol: str, is_crypto: bool = False):
+    """
+    Get trading strategy recommendation based on the is_crypto flag.
+    This endpoint is used by the frontend.
+    """
+    if is_crypto:
+        return analyze_crypto_strategy(symbol)
     else:
-        return "Hold"
+        return analyze_stock_strategy(symbol)
 
-@router.post("/recommend_strategy")
-def recommend_strategy(data: StrategyInput):
-    strategy = generate_strategy(data.sentiment, data.rsi)
-    return {
-        "symbol": data.symbol,
-        "recommended_action": strategy,
-        "reason": f"Sentiment: {data.sentiment}, RSI: {data.rsi}"
-    }
+@router.get("/strategy/recommended-stocks", tags=["Recommendations"])
+def get_stock_recommendations():
+    """
+    Get a list of recommended stocks based on technical and sentiment analysis.
+    """
+    return get_recommended_stocks()
+
+@router.get("/strategy/recommended-cryptos", tags=["Recommendations"])
+def get_crypto_recommendations():
+    """
+    Get a list of recommended cryptocurrencies based on technical and sentiment analysis.
+    """
+    return get_recommended_cryptos()
+
+
