@@ -288,7 +288,7 @@ const apiService = {
             } catch (error) {
                 console.error("Error in getBusinessNews:", error);
 
-                // 提供模拟新闻数据作为后备
+                // Provide mock news data as a fallback
                 const mockNews = [
                     {
                         title: "Apple Reports Record Quarterly Revenue Despite Market Challenges",
@@ -371,7 +371,7 @@ const apiService = {
             } catch (error) {
                 console.error("Error in getCryptoNews:", error);
 
-                // 提供模拟加密货币新闻数据作为后备
+                // Provide mock cryptocurrency news data as a fallback
                 const mockCryptoNews = [
                     {
                         title: "Bitcoin Surges Past $60,000 as Institutional Adoption Grows",
