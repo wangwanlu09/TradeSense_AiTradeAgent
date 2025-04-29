@@ -12,7 +12,7 @@ Imagine opening your dashboard and instantly understanding the market mood, key 
 
 ![TradeSense Overview News](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Overview%20News%20Analysis.png?raw=true)
 
-![TradeSense Overview News](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Market%20Trend.png?raw=true)
+![TradeSense Market Trend](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Market%20Trend.png?raw=true)
 
 ### The Problem:
 
