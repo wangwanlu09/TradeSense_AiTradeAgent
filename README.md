@@ -1,18 +1,68 @@
-# AI Trade Agent
+# TradeSense: AI Trade Agent
 
 TradeSense is an AI-powered trading assistant that helps users analyze financial news, market trends, and provides intelligent investment insights.
 
 ![TradeSense Home](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Home.png?raw=true)
 
+## Background + Overview
+
+Making smart investments shouldn’t require constant monitoring of volatile markets or spending hours reading scattered financial news. TradeSense is designed to simplify that process with real-time, AI-powered trading insights based on news sentiment, technical analysis, and live market data.
+
+Imagine opening your dashboard and instantly understanding the market mood, key opportunities, and smart strategies—all backed by real-time data and intelligent recommendations. With TradeSense, trading becomes more informed, focused, and accessible.
+
+### The Problem:
+
+- **Too Much Noise**: Investors are overwhelmed by fragmented news sources and conflicting signals.
+- **Lack of Personalization**: Most tools don’t adapt to individual risk preferences or investment styles.
+- **Outdated Tools**: Traditional market analysis is slow and reactive, not predictive.
+
+### Our Solution:
+
+Powered by cutting-edge AI models and real-time financial data, TradeSense delivers personalized, intelligent trading insights across both crypto and stock markets. Whether you're a new investor overwhelmed by market noise or an experienced trader looking to enhance your strategy, TradeSense helps you make smarter, faster decisions.
+
+By combining live news sentiment analysis with technical indicators like RSI, MA20, MA120, and volume trends, TradeSense adapts continuously to changing market conditions—ensuring every recommendation is timely, relevant, and actionable.
 
 ## Features
 
-- **News Analysis**: Analyzes financial news to extract sentiment and relevant insights
-- **Technical Analysis**: Provides technical indicators and chart pattern recognition
-- **Strategy Evaluation**: Evaluates and recommends trading strategies based on market conditions
-- **Market Insights**: Offers real-time market data and trend analysis
-- **Personalized Recommendations**: Generates tailored investment recommendations
+- **News Analysis**  
+  Analyzes financial news in real time to extract sentiment, identify key topics, and surface relevant market insights.
 
+- **Technical Analysis**  
+  Provides essential technical indicators such as RSI, MA20, MA120, and volume analytics, along with basic chart pattern recognition.
+
+- **Strategy Evaluation**  
+  Evaluates market conditions and suggests trading strategies based on data-driven insights and sentiment signals.
+
+- **Market Insights**  
+  Offers real-time stock and crypto market data, highlighting major movements and emerging trends.
+
+- **Personalized Recommendations**  
+  Delivers tailored investment suggestions based on user preferences, live data, and AI-driven analysis.
+
+## How It Works
+
+TradeSense combines real-time data retrieval, AI-powered analysis, and personalized strategy generation to deliver actionable trading insights. Here's how the system works:
+
+- **News Aggregation**  
+  The system continuously fetches and filters financial news from reliable sources across the stock and crypto markets.
+
+  ![TradeSense News Analysis](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/News%20Analysis.png?raw=true)
+
+- **Sentiment Analysis**  
+  AI models analyze the news content to detect market sentiment (positive, neutral, negative) and identify key financial signals.
+
+- **Strategy Evaluation**  
+  Evaluates market conditions and suggests trading strategies based on data-driven insights and sentiment signals.
+
+- **Technical Indicator Calculation**  
+  Using APIs (e.g., Binance, Yahoo Finance), TradeSense calculates indicators such as RSI, MA20, MA120, and volume trends for selected assets.
+
+- **Strategy & Trend Evaluation**  
+  Based on combined news sentiment and technical signals, the system generates strategy suggestions and highlights short-term trends.
+
+- **Personalized Recommendations**  
+  Finally, TradeSense tailors its output based on user preferences or portfolio interests, delivering concise, actionable recommendations via dashboard or chat.
+  
 ## Project Structure
 
 ```
@@ -92,12 +142,24 @@ TradeSense is an AI-powered trading assistant that helps users analyze financial
 - `GET /strategy` - Get strategy evaluations and recommendations
 - `GET /recommend` - Get personalized investment recommendations
 
-## Technologies Used
+## Technologies Used 
+Here’s what powers the intelligent trading experience behind **TradeSense**:
 
-- **Backend**: FastAPI, Python
-- **Frontend**: React, TypeScript, Tailwind CSS
-- **AI/ML**:  Azure AI Agent Service (GPT models), Azure AI Text Analytics
-- **Other**: Redis for caching
+- **FastAPI ⚡**  
+  A high-performance web framework for handling API requests efficiently, enabling real-time data access and interaction with the AI trade agent.
+
+- **React + TypeScript + Tailwind CSS 💻**  
+  A modern, responsive front-end stack that ensures a smooth user interface with clean visuals, dynamic updates, and a great dashboard experience.
+
+- **Azure AI Agent Service 🤖**  
+  Powers intelligent interactions and trading recommendations using cutting-edge GPT models tailored for financial context and dialogue.
+
+- **Azure Text Analytics 🧠**  
+  Extracts sentiment and key insights from financial news, turning unstructured text into actionable intelligence.
+
+- **Redis 🔄**  
+  Used for caching frequently accessed data like market summaries or news sentiment results, improving system responsiveness.
+
 
 ## Contributing
 
