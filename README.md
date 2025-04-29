@@ -2,7 +2,8 @@
 
 TradeSense is an AI-powered trading assistant that helps users analyze financial news, market trends, and provides intelligent investment insights.
 
-![TradeSense Home](https://https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Home.png?raw=true)
+![TradeSense Home](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Home.png?raw=true)
+
 
 ## Features
 
