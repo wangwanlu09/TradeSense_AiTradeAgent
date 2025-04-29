@@ -140,12 +140,28 @@ TradeSense combines real-time data retrieval, AI-powered analysis, and personali
 - `GET /strategy` - Get strategy evaluations and recommendations
 - `GET /recommend` - Get personalized investment recommendations
 
-## Technologies Used
+你可以参考 “Sakura Guide” 的写法，将你项目 TradeSense 的技术栈部分写得更生动具体一些，强调每项技术背后的作用。以下是适合你项目的 `## Technologies Used` 精炼 + 说明版本：
 
-- **Backend**: FastAPI, Python
-- **Frontend**: React, TypeScript, Tailwind CSS
-- **AI/ML**:  Azure AI Agent Service (GPT models), Azure AI Text Analytics
-- **Other**: Redis for caching
+---
+
+## Technologies Used 
+Here’s what powers the intelligent trading experience behind **TradeSense**:
+
+- **FastAPI ⚡**  
+  A high-performance web framework for handling API requests efficiently, enabling real-time data access and interaction with the AI trade agent.
+
+- **React + TypeScript + Tailwind CSS 💻**  
+  A modern, responsive front-end stack that ensures a smooth user interface with clean visuals, dynamic updates, and a great dashboard experience.
+
+- **Azure AI Agent Service 🤖**  
+  Powers intelligent interactions and trading recommendations using cutting-edge GPT models tailored for financial context and dialogue.
+
+- **Azure Text Analytics 🧠**  
+  Extracts sentiment and key insights from financial news, turning unstructured text into actionable intelligence.
+
+- **Redis 🔄**  
+  Used for caching frequently accessed data like market summaries or news sentiment results, improving system responsiveness.
+
 
 ## Contributing
 
