@@ -162,6 +162,20 @@ Here’s what powers the intelligent trading experience behind **TradeSense**:
 - **Redis 🔄**  
   Used for caching frequently accessed data like market summaries or news sentiment results, improving system responsiveness.
 
+## Insights Deep Dive
+
+### Real-Time Smart Analysis  
+TradeSense retrieves the latest financial news and market data based on user input (e.g., BTC or a specific stock), and uses AI models to analyze current sentiment and trends. For example, when a user enters “AAPL?”, the system combines sentiment analysis and technical indicators to generate a real-time market summary and actionable insight.
+
+### GPT-Powered Summaries   
+Powered by Azure AI Agent Service with GPT models, TradeSense produces concise and insightful trend summaries.  
+**Example output**: *“Lower stock futures signal cautious sentiment as investors await earnings reports, company results and outlooks.”*
+
+![TradeSense Business News](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Business%20News.png?raw=true)
+
+### Multimodal Insights   
+By combining news sentiment, market movement (e.g., price and percent change), and technical indicators such as RSI, MA20, and MA120, TradeSense provides a comprehensive market perspective. This multi-signal approach helps users make better-informed decisions and avoid relying on a single indicator.
+
 
 ## Contributing
 
