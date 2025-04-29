@@ -1,6 +1,8 @@
 # AI Trade Agent
 
-AI Trade Agent is an intelligent trading assistant that helps users analyze market trends, financial news, and trading strategies to make informed investment decisions.
+TradeSense is an AI-powered trading assistant that helps users analyze financial news, market trends, and provides intelligent investment insights.
+
+![TradeSense Home](https://https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Home.png?raw=true)
 
 ## Features
 
@@ -93,7 +95,7 @@ AI Trade Agent is an intelligent trading assistant that helps users analyze mark
 
 - **Backend**: FastAPI, Python
 - **Frontend**: React, TypeScript, Tailwind CSS
-- **AI/ML**: OpenAI GPT, Azure AI Text Analytics
+- **AI/ML**:  Azure AI Agent Service (GPT models), Azure AI Text Analytics
 - **Other**: Redis for caching
 
 ## Contributing
