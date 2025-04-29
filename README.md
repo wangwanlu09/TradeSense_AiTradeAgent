@@ -46,6 +46,8 @@ TradeSense combines real-time data retrieval, AI-powered analysis, and personali
 - **News Aggregation**  
   The system continuously fetches and filters financial news from reliable sources across the stock and crypto markets.
 
+  ![TradeSense News Analysis](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/News%20Analysis.png?raw=true)
+
 - **Sentiment Analysis**  
   AI models analyze the news content to detect market sentiment (positive, neutral, negative) and identify key financial signals.
 
