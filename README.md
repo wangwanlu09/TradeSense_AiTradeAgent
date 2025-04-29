@@ -24,6 +24,8 @@ Imagine opening your dashboard and instantly understanding the market mood, key 
 
 Powered by cutting-edge AI models and real-time financial data, TradeSense delivers personalized, intelligent trading insights across both crypto and stock markets. Whether you're a new investor overwhelmed by market noise or an experienced trader looking to enhance your strategy, TradeSense helps you make smarter, faster decisions.
 
+![TradeSense Business NewsP2](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Business%20NewsP2.jpg?raw=true)
+
 By combining live news sentiment analysis with technical indicators like RSI, MA20, MA120, and volume trends, TradeSense adapts continuously to changing market conditions—ensuring every recommendation is timely, relevant, and actionable.
 
 ## Features
