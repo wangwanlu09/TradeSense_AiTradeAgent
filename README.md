@@ -39,6 +39,28 @@ By combining live news sentiment analysis with technical indicators like RSI, MA
 - **Personalized Recommendations**  
   Delivers tailored investment suggestions based on user preferences, live data, and AI-driven analysis.
 
+## How It Works
+
+TradeSense combines real-time data retrieval, AI-powered analysis, and personalized strategy generation to deliver actionable trading insights. Here's how the system works:
+
+- **News Aggregation**  
+  The system continuously fetches and filters financial news from reliable sources across the stock and crypto markets.
+
+- **Sentiment Analysis**  
+  AI models analyze the news content to detect market sentiment (positive, neutral, negative) and identify key financial signals.
+
+- **Strategy Evaluation**  
+  Evaluates market conditions and suggests trading strategies based on data-driven insights and sentiment signals.
+
+- **Technical Indicator Calculation**  
+  Using APIs (e.g., Binance, Yahoo Finance), TradeSense calculates indicators such as RSI, MA20, MA120, and volume trends for selected assets.
+
+- **Strategy & Trend Evaluation**  
+  Based on combined news sentiment and technical signals, the system generates strategy suggestions and highlights short-term trends.
+
+- **Personalized Recommendations**  
+  Finally, TradeSense tailors its output based on user preferences or portfolio interests, delivering concise, actionable recommendations via dashboard or chat.
+  
 ## Project Structure
 
 ```
