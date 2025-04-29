@@ -1,4 +1,4 @@
-# AI Trade Agent
+# TradeSnse: AI Trade Agent
 
 TradeSense is an AI-powered trading assistant that helps users analyze financial news, market trends, and provides intelligent investment insights.
 
