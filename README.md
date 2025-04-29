@@ -10,6 +10,11 @@ Making smart investments shouldn’t require constant monitoring of volatile mar
 
 Imagine opening your dashboard and instantly understanding the market mood, key opportunities, and smart strategies—all backed by real-time data and intelligent recommendations. With TradeSense, trading becomes more informed, focused, and accessible.
 
+### The Problem:
+
+- **Too Much Noise**: Investors are overwhelmed by fragmented news sources and conflicting signals.
+- **Lack of Personalization**: Most tools don’t adapt to individual risk preferences or investment styles.
+- **Outdated Tools**: Traditional market analysis is slow and reactive, not predictive.
 
 ## Features
 
