@@ -24,11 +24,20 @@ By combining live news sentiment analysis with technical indicators like RSI, MA
 
 ## Features
 
-- **News Analysis**: Analyzes financial news to extract sentiment and relevant insights
-- **Technical Analysis**: Provides technical indicators and chart pattern recognition
-- **Strategy Evaluation**: Evaluates and recommends trading strategies based on market conditions
-- **Market Insights**: Offers real-time market data and trend analysis
-- **Personalized Recommendations**: Generates tailored investment recommendations
+- **News Analysis**  
+  Analyzes financial news in real time to extract sentiment, identify key topics, and surface relevant market insights.
+
+- **Technical Analysis**  
+  Provides essential technical indicators such as RSI, MA20, MA120, and volume analytics, along with basic chart pattern recognition.
+
+- **Strategy Evaluation**  
+  Evaluates market conditions and suggests trading strategies based on data-driven insights and sentiment signals.
+
+- **Market Insights**  
+  Offers real-time stock and crypto market data, highlighting major movements and emerging trends.
+
+- **Personalized Recommendations**  
+  Delivers tailored investment suggestions based on user preferences, live data, and AI-driven analysis.
 
 ## Project Structure
 
