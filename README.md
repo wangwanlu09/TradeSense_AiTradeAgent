@@ -142,10 +142,6 @@ TradeSense combines real-time data retrieval, AI-powered analysis, and personali
 - `GET /strategy` - Get strategy evaluations and recommendations
 - `GET /recommend` - Get personalized investment recommendations
 
-你可以参考 “Sakura Guide” 的写法，将你项目 TradeSense 的技术栈部分写得更生动具体一些，强调每项技术背后的作用。以下是适合你项目的 `## Technologies Used` 精炼 + 说明版本：
-
----
-
 ## Technologies Used 
 Here’s what powers the intelligent trading experience behind **TradeSense**:
 
