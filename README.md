@@ -166,7 +166,7 @@ Here’s what powers the intelligent trading experience behind **TradeSense**:
 - **Redis 🔄**  
   Used for caching frequently accessed data like market summaries or news sentiment results, improving system responsiveness.
 
-![TradeSense TechTech](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Tech.png?raw=true)
+![TradeSense Tech](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Tech.png?raw=true)
 
 ## Insights Deep Dive
 
@@ -181,6 +181,8 @@ Powered by Azure AI Agent Service with GPT models, TradeSense produces concise a
 
 ### Multimodal Insights   
 By combining news sentiment, market movement (e.g., price and percent change), and technical indicators such as RSI, MA20, and MA120, TradeSense provides a comprehensive market perspective. This multi-signal approach helps users make better-informed decisions and avoid relying on a single indicator.
+
+![TradeSense Recommendation P3](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Recommendation%20P3.png?raw=true)
 
 
 ## Contributing
