@@ -166,6 +166,8 @@ Here’s what powers the intelligent trading experience behind **TradeSense**:
 - **Redis 🔄**  
   Used for caching frequently accessed data like market summaries or news sentiment results, improving system responsiveness.
 
+![TradeSense TechTech](https://github.com/wangwanlu09/TradeSense_AiTradeAgent/blob/main/Tech.png?raw=true)
+
 ## Insights Deep Dive
 
 ### Real-Time Smart Analysis  
